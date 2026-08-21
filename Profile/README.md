@@ -1,4 +1,4 @@
-# 🌬️ AtWIND: Atmospheric Flow and Wind Energy Dynamics Group at Durham University
+# 🌬️DurhamWIND: Atmospheric Flow and Wind Energy Dynamics Group at Durham University
 
 Welcome to our GitHub page. Here, we hosts open-source codes, datasets, and resources related to our research publications.
 
