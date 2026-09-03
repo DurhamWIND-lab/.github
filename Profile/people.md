@@ -42,7 +42,19 @@ Associate Professor, Department of Engineering, Durham University
 <small>[mohammad.roshani@durham.ac.uk](mailto:mohammad.roshani@durham.ac.uk)</small>
 
 ---
+### **Alexia Everley** — PhD Student  
+<img src="./Images/Alexia.JPG" alt="Alexia Everley" width="200">
 
+> **Short bio**: Having studied mathematics in the form of a MMath degree at Durham University, I am now a PhD student within the Department of Engineering at Durham University.
+
+> **Research project**:  The main focus of my work is on developing reduced order models to simulate flow around wind farms. I am interested in capturing the interactions between wind farms as well as the large-scale interaction with the atmospheric boundary layer. 
+
+
+> **Academic supervisors**: Majid Bastankhah (Department of Engineering, Durham University), Hossein Amini-Kafiabad (Department of Mathematics, Durham University)
+
+<small>[alexia.everley@durham.ac.uk](mailto:alexia.everley@durham.ac.uk)</small>
+
+---
 ## 💬 Contact & Opportunities
 
 We welcome collaboration and new students interested in **wind energy, atmospheric turbulence, and environmental fluid mechanics**.
