@@ -29,12 +29,6 @@ Associate Professor, Department of Engineering, Durham University
 
 > **Academic supervisors**: Majid Bastankhah (primary supervisor), David Sims-Williams, Lian Gan, Jim Gilbert (University of Hull)
 
- ---
- ### **Ben Wass** - MEng Student
-
- > **Research Project**: Developing a bi-model machine learning architecture to imporve power forecasts for offshore windfarms. Utlising SCADA data and weather forecasts.
-
-> **Academic supervisors**: Majid Bastankhah
 ---
 
 ### **Mohammad Roshani** — PhD Student  
