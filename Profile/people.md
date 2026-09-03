@@ -43,7 +43,7 @@ Associate Professor, Department of Engineering, Durham University
 
 ---
 ### **Alexia Everley** — PhD Student  
-<img src="./Images/Alexia.JPG" alt="Alexia Everley" width="200">
+<img src="./Images/Alexia.jpg" alt="Alexia Everley" width="200">
 
 > **Short bio**: Having studied mathematics in the form of a MMath degree at Durham University, I am now a PhD student within the Department of Engineering at Durham University.
 
