@@ -1,0 +1,80 @@
+# Regenerates Profile/people.md and the publications table in Profile/README.md
+# from Profile/data/*.yml, so the GitHub organisation page can never drift from
+# the data the website is built from.
+#
+# Runs on every push that touches the data or the renderer. On pull requests it
+# validates only, so a bad edit fails review instead of landing.
+
+name: Render org profile markdown
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Profile/data/**"
+      - "Profile/Images/**"
+      - "scripts/render_markdown.py"
+      - ".github/workflows/render-markdown.yml"
+  pull_request:
+    paths:
+      - "Profile/data/**"
+      - "scripts/render_markdown.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-markdown
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML
+        run: pip install --quiet pyyaml
+
+      - name: Validate data files
+        run: python scripts/render_markdown.py --check
+
+      - name: Render markdown
+        if: github.event_name != 'pull_request'
+        run: python scripts/render_markdown.py
+
+      - name: Commit regenerated markdown
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- Profile/people.md Profile/README.md; then
+            echo "No changes to the generated markdown."
+            exit 0
+          fi
+          git add Profile/people.md Profile/README.md
+          git commit -m "Regenerate profile markdown from Profile/data"
+          git push
+
+      - name: Notify the website to sync
+        if: github.event_name != 'pull_request'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.SITE_SYNC_TOKEN }}
+        run: |
+          # OPTIONAL. Without a SITE_SYNC_TOKEN secret the website still picks
+          # these changes up on its hourly schedule — this step just makes it
+          # immediate. To enable: create a fine-grained PAT with Actions:write
+          # on DurhamWIND-lab/DurhamWIND-Lab.github.io and save it here as the
+          # repository secret SITE_SYNC_TOKEN.
+          if [ -z "$GH_TOKEN" ]; then
+            echo "No SITE_SYNC_TOKEN set — the site will sync on its hourly schedule."
+            exit 0
+          fi
+          gh workflow run sync-content.yml \
+            --repo DurhamWIND-lab/DurhamWIND-Lab.github.io
