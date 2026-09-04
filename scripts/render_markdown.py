@@ -52,7 +52,6 @@ def validate(site, people, pubs, projects) -> list[str]:
     errors: list[str] = []
 
     role_keys = {r["key"] for r in site.get("roles", [])}
-    expertise_keys = set(site.get("expertise") or {})
     theme_keys = set(site.get("themes") or {})
     person_ids: set[str] = set()
 
@@ -70,11 +69,6 @@ def validate(site, people, pubs, projects) -> list[str]:
             errors.append(
                 f"person {who!r}: role {person.get('role')!r} is not a key in site.yml -> roles"
             )
-        for tag in person.get("expertise") or []:
-            if tag not in expertise_keys:
-                errors.append(
-                    f"person {who!r}: expertise {tag!r} is not a key in site.yml -> expertise"
-                )
         photo = person.get("photo")
         if photo and not (ROOT / "Profile" / "Images" / photo).exists():
             errors.append(f"person {who!r}: photo Profile/Images/{photo} not found")
@@ -121,7 +115,7 @@ def clean(text: str | None) -> str:
     return re.sub(r"\s+", " ", str(text)).strip()
 
 
-def render_person(person, expertise_map) -> str:
+def render_person(person) -> str:
     out: list[str] = []
     out.append(f"### {person['name']} — {person['title']}")
     out.append("")
@@ -137,10 +131,6 @@ def render_person(person, expertise_map) -> str:
         meta.append(person["department"])
     meta.append("Durham University")
     out.append(", ".join(meta) + "  ")
-
-    tags = [expertise_map.get(t, t) for t in person.get("expertise") or []]
-    if tags:
-        out.append("*" + " · ".join(tags) + "*  ")
 
     links = []
     if person.get("email"):
@@ -172,7 +162,6 @@ def render_person(person, expertise_map) -> str:
 
 
 def render_people_md(site, people) -> str:
-    expertise_map = site.get("expertise") or {}
     by_role: dict[str, list] = {}
     for person in people:
         by_role.setdefault(person["role"], []).append(person)
@@ -191,7 +180,7 @@ def render_people_md(site, people) -> str:
             out.append(clean(role["blurb"]))
             out.append("")
         for person in members:
-            out.append(render_person(person, expertise_map))
+            out.append(render_person(person))
             out.append("---")
             out.append("")
 

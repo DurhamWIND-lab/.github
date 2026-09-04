@@ -17,7 +17,6 @@ Academic staff leading the group's research across engineering and mathematics.
 <img src="./Images/Majid.jpg" alt="Majid Bastankhah" width="180">
 
 Department of Engineering, Durham University  
-*Wake modelling · Aerodynamics · Experimental fluid mechanics · Atmospheric boundary layer · Turbulence*  
 [majid.bastankhah@durham.ac.uk](mailto:majid.bastankhah@durham.ac.uk) · [Google Scholar](https://scholar.google.com/citations?user=784pzQQAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-1326-027X) · [Durham profile](https://www.durham.ac.uk/staff/majid-bastankhah/) · [LinkedIn](https://www.linkedin.com/in/majid-bastankhah-23058240/)
 
 > I am a fluid dynamicist with a deep interest in environmental science and sustainable energy, particularly offshore wind. I earned my BSc and MSc in Mechanical Engineering from Sharif University of Technology in Iran, then moved to EPFL in Switzerland for my PhD, joining Durham in 2018. We use theory, simulation and laboratory experiment to understand how wind turbines and wind farms interact with the atmosphere. Colleagues in the wind energy community may know me best for analytical wake models — the Gaussian, or Bastankhah, wake model among them — which are used across academia and industry and are implemented in tools such as FLORIS (NREL) and PyWake (DTU). My main passion is building simple, physically grounded models by simplifying the equations that govern fluid motion: models rooted in fundamental physics but practical enough for the fast-paced world of industry. More recently that work has expanded into data-driven methods that build on physics-based modelling rather than replacing it.
@@ -31,7 +30,6 @@ Department of Engineering, Durham University
 <img src="./Images/Hossein.jpg" alt="Hossein Amini Kafiabad" width="180">
 
 Department of Mathematical Sciences, Durham University  
-*Geophysical fluid dynamics · Turbulence · Applied mathematics · CFD & large-eddy simulation*  
 [hossein.amini-kafiabad@durham.ac.uk](mailto:hossein.amini-kafiabad@durham.ac.uk) · [Website](https://kafiabad.com/) · [Google Scholar](https://scholar.google.com/citations?user=Rv1ZtYAAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-8791-9217) · [Durham profile](https://www.durham.ac.uk/staff/hossein-amini-kafiabad/)
 
 > I am an applied mathematician and fluid dynamicist in the Department of Mathematical Sciences. My research is in numerical and theoretical geophysical fluid dynamics, and most prominently in the interaction of waves, vortices and turbulence in the atmosphere and ocean. I also develop computational tools and methods for problems across physics and engineering. I completed my PhD at McGill University with Prof. Peter Bartello, studying balance dynamics in rotating stratified turbulence, and from 2018 to 2022 was a postdoctoral researcher and university teacher at the University of Edinburgh with Prof. Jacques Vanneste. Within DurhamWIND, my work connects wind farm flows to the large-scale atmospheric dynamics they sit inside.
@@ -43,10 +41,20 @@ Department of Mathematical Sciences, Durham University
 <img src="./Images/Nima.jpg" alt="Nima Gerami-Seresht" width="180">
 
 Department of Engineering, Durham University  
-*Machine learning · Risk & resilience · Digital infrastructure · Optimisation & control*  
 [nima.gerami-seresht@durham.ac.uk](mailto:nima.gerami-seresht@durham.ac.uk) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=gNiWjhEAAAAJ) · [ORCID](https://orcid.org/0000-0003-4408-0332) · [Durham profile](https://www.durham.ac.uk/staff/nima-gerami-seresht/) · [LinkedIn](https://www.linkedin.com/in/nima-gerami-seresht/)
 
 > I work on sustainable and resilient infrastructure, having received my PhD in Construction Engineering and Management from the University of Alberta in 2017. My theoretical research concerns dynamic multi-agent systems, granular computing and building information modelling; my applied work is directed at digital construction, simulating construction processes, and the sustainability and resilience of urban infrastructure. I apply artificial intelligence techniques — fuzzy computation, machine learning and computer vision — to capture human behaviour in the built environment. In wind energy, my research addresses risk identification and assessment for wind farm projects: the deployment and delivery side of getting renewable capacity built.
+
+---
+
+### Stefano Giani — Associate Professor
+
+<img src="./Images/Stefano.jpg" alt="Stefano Giani" width="180">
+
+Department of Engineering, Durham University  
+[stefano.giani@durham.ac.uk](mailto:stefano.giani@durham.ac.uk) · [ORCID](https://orcid.org/0000-0002-8190-9958) · [Durham profile](https://www.durham.ac.uk/staff/stefano-giani/)
+
+> I am an Associate Professor in High-Performance Computing in the Department of Engineering, specialising in finite element methods applied to linear and non-linear problems across solid mechanics, fluid dynamics, photonics, acoustics and radiative heat transfer, with interests in discontinuous Galerkin methods, error estimators, adaptivity, multi-level methods, preconditioners and fracture. I also work on deep neural networks, applied to problems from AI-based machine monitoring to language processing.
 
 ---
 
@@ -57,7 +65,6 @@ Department of Engineering, Durham University
 <img src="./Images/Jordan.jpg" alt="Jordan Fuentes Holden" width="180">
 
 Department of Engineering, Durham University  
-*Flow control · Aerodynamics · Experimental fluid mechanics*  
 [jordan.p.fuentes-holden@durham.ac.uk](mailto:jordan.p.fuentes-holden@durham.ac.uk)
 
 > **Research project**: I develop a smart wind turbine with trailing-edge flaps that can actively control the airflow around the blades and manipulate its wake to improve efficiency and overall performance.
@@ -71,7 +78,6 @@ Department of Engineering, Durham University
 <img src="./Images/Mohammad.JPG" alt="Mohammad Roshani" width="180">
 
 Department of Engineering, Durham University  
-*Floating offshore wind · Wake modelling · Aerodynamics*  
 [mohammad.roshani@durham.ac.uk](mailto:mohammad.roshani@durham.ac.uk)
 
 > I am a PhD student working on floating offshore wind at Durham University. I am interested in how wind flows interact with floating wind turbines, especially because these turbines can move in all six degrees of freedom.
@@ -85,7 +91,6 @@ Department of Engineering, Durham University
 <img src="./Images/Alexia.jpg" alt="Alexia Everley" width="180">
 
 Department of Engineering, Durham University  
-*Reduced-order modelling · Atmospheric boundary layer · Applied mathematics*  
 [alexia.everley@durham.ac.uk](mailto:alexia.everley@durham.ac.uk)
 
 > Having studied mathematics in the form of an MMath degree at Durham University, I am now a PhD student within the Department of Engineering at Durham University.
@@ -99,7 +104,6 @@ Department of Engineering, Durham University
 ### Andreo Chimal Garcia — PhD Student
 
 Department of Engineering, Durham University  
-*Geophysical fluid dynamics · Applied mathematics*  
 [ernesto.a.chimal-garcia@durham.ac.uk](mailto:ernesto.a.chimal-garcia@durham.ac.uk)
 
 > **Academic supervisors**: Majid Bastankhah (Department of Engineering, Durham University), Hossein Amini Kafiabad (Department of Mathematical Sciences, Durham University)
@@ -109,7 +113,6 @@ Department of Engineering, Durham University
 ### Joshua Prowse — PhD Student
 
 Department of Engineering, Durham University  
-*Machine learning · Optimisation & control*  
 [joshua.prowse@durham.ac.uk](mailto:joshua.prowse@durham.ac.uk)
 
 > I graduated from Durham in 2025 with an MEng specialising in electrical engineering.
