@@ -2,7 +2,7 @@
 
 **Atmospheric Flow and Wind Energy Dynamics Group — Durham University**
 
-[**Website**](https://durhamwind-lab.github.io) · [**People**](https://github.com/DurhamWIND-lab/.github/blob/main/Profile/people.md) · [**Contact**](mailto:majid.bastankhah@durham.ac.uk)
+[**Website**](https://durhamwind-lab.github.io) · [**People**](https://github.com/DurhamWIND-lab/.github/blob/main/Profile/people.md) · [**Publications**](https://durhamwind-lab.github.io/publications/)
 
 DurhamWIND is an interdisciplinary group working on the fluid mechanics of wind energy — from the aerodynamics of a single rotor to the interaction of whole wind farms with the atmospheric boundary layer, and on to the systems that get that energy built and delivered. We bring together wind-farm aerodynamics and laboratory experiment, geophysical fluid dynamics and applied mathematics, and artificial intelligence for infrastructure and risk, across the Departments of Engineering and Mathematical Sciences.
 
@@ -96,11 +96,13 @@ A commit to any of them regenerates this page automatically and updates [the web
 
 ---
 
-## 🧭 Contact
+## 🧭 Enquiries
 
-📧 [majid.bastankhah@durham.ac.uk](mailto:majid.bastankhah@durham.ac.uk)
+We work across the Departments of Engineering and Mathematical Sciences at Durham University, and we welcome collaboration and enquiries from prospective students and researchers.
 
-📍 Department of Engineering, Durham University, Lower Mountjoy, South Road, Durham DH1 3LE, United Kingdom
+There is no central inbox — write to whichever of us works closest to what interests you. Email addresses are on the [People page](https://github.com/DurhamWIND-lab/.github/blob/main/Profile/people.md).
+
+📍 Durham University, Lower Mountjoy, South Road, Durham DH1 3LE, United Kingdom
 
 ---
 

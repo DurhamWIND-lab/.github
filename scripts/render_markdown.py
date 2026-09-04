@@ -195,18 +195,21 @@ def render_people_md(site, people) -> str:
             out.append("---")
             out.append("")
 
-    out.append("## 💬 Contact & Opportunities")
+    out.append("## 💬 Enquiries & Opportunities")
     out.append("")
     out.append(
         "We welcome collaboration, and enquiries from prospective students and "
         "researchers interested in wind energy, atmospheric turbulence and "
-        "environmental fluid mechanics."
+        "environmental fluid mechanics — including those coming from applied "
+        "mathematics, machine learning or data science rather than classical "
+        "fluid dynamics."
     )
     out.append("")
-    email = (site.get("contact") or {}).get("email", "")
-    if email:
-        out.append(f"📧 [{email}](mailto:{email})")
-        out.append("")
+    out.append(
+        "There is no central inbox. Write to whichever of us works closest to "
+        "what interests you — email addresses are listed above."
+    )
+    out.append("")
     if site.get("url"):
         out.append(f"🌐 [{site['url']}]({site['url']})")
         out.append("")

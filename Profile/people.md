@@ -113,10 +113,10 @@ Department of Engineering, Durham University
 
 ---
 
-## 💬 Contact & Opportunities
+## 💬 Enquiries & Opportunities
 
-We welcome collaboration, and enquiries from prospective students and researchers interested in wind energy, atmospheric turbulence and environmental fluid mechanics.
+We welcome collaboration, and enquiries from prospective students and researchers interested in wind energy, atmospheric turbulence and environmental fluid mechanics — including those coming from applied mathematics, machine learning or data science rather than classical fluid dynamics.
 
-📧 [majid.bastankhah@durham.ac.uk](mailto:majid.bastankhah@durham.ac.uk)
+There is no central inbox. Write to whichever of us works closest to what interests you — email addresses are listed above.
 
 🌐 [https://durhamwind-lab.github.io](https://durhamwind-lab.github.io)
