@@ -245,19 +245,6 @@
   featured: true
   note: "The Gaussian wake model, implemented in FLORIS (NREL) and PyWake (DTU)"
 
-# --- FETCHED, PENDING REVIEW ---
-# Added automatically from ORCID. Confirm the guessed themes, then
-# remove this marker. Anything that does not belong on a wind-energy
-# page should be moved to publications-excluded.yml, not just deleted,
-# or the next sweep will propose it again.
-
-- year: 2023
-  title: "Inertia-gravity-wave diffusion by geostrophic turbulence: the impact of flow time dependence"
-  authors: "Cox, M. R., Kafiabad, H. A., & Vanneste, J."
-  venue: "Journal of Fluid Mechanics, 958, A21"
-  doi: https://doi.org/10.1017/jfm.2023.83
-  theme: abl-gfd    # guessed — confirm
-  # via ORCID: Hossein Amini Kafiabad
 
 - year: 2021
   title: "Developing a risk breakdown matrix for onshore wind farm projects using fuzzy case-based reasoning"
@@ -267,13 +254,7 @@
   theme: systems    # guessed — confirm
   # via ORCID: Nima Gerami-Seresht
 
-- year: 2021
-  title: "Inertia-gravity-wave scattering by three-dimensional geostrophic turbulence"
-  authors: "Savva, M., Kafiabad, H., & Vanneste, J."
-  venue: "Journal of Fluid Mechanics, 916, A6"
-  doi: https://doi.org/10.1017/jfm.2021.205
-  theme: abl-gfd    # guessed — confirm
-  # via ORCID: Hossein Amini Kafiabad
+
 
 - year: 2020
   title: "Framework for Risk Identification of Renewable Energy Projects Using Fuzzy Case-Based Reasoning"
@@ -283,10 +264,4 @@
   theme: systems    # guessed — confirm
   # via ORCID: Nima Gerami-Seresht
 
-- year: 2019
-  title: "Diffusion of inertia-gravity waves by geostrophic turbulence"
-  authors: "Kafiabad, H. A., Savva, M. A. C., & Vanneste, J."
-  venue: "Journal of Fluid Mechanics, 869, R7"
-  doi: https://doi.org/10.1017/jfm.2019.300
-  theme: abl-gfd    # guessed — confirm
-  # via ORCID: Hossein Amini Kafiabad
+
