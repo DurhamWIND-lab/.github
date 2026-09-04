@@ -109,10 +109,14 @@ Department of Engineering, Durham University
 ### Joshua Prowse — PhD Student
 
 Department of Engineering, Durham University  
-*Aerodynamics*  
+*Machine learning · Optimisation & control*  
 [joshua.prowse@durham.ac.uk](mailto:joshua.prowse@durham.ac.uk)
 
-> **Academic supervisors**: Majid Bastankhah (primary)
+> I graduated from Durham in 2025 with an MEng specialising in electrical engineering.
+
+> **Research project**: Optimisation of wind farm power production using AI. During my PhD I will be developing an artificial intelligence capable of optimising the control parameters of a wind farm in response to changing wind conditions and to power demand from the grid.
+
+> **Academic supervisors**: Stefano Giani (primary), Majid Bastankhah
 
 ---
 

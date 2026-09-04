@@ -205,7 +205,6 @@
     - Majid Bastankhah (Department of Engineering, Durham University)
     - Hossein Amini Kafiabad (Department of Mathematical Sciences, Durham University)
 
-# TODO(Majid): Same for Joshua — bio and project needed.
 - id: joshua-prowse
   name: Joshua Prowse
   title: PhD Student
@@ -213,9 +212,19 @@
   department: Department of Engineering
   email: joshua.prowse@durham.ac.uk
   expertise:
-    - aerodynamics
+    - machine-learning
+    - optimisation-control
+  bio: >
+    I graduated from Durham in 2025 with an MEng specialising in electrical
+    engineering.
+  project: >
+    Optimisation of wind farm power production using AI. During my PhD I will
+    be developing an artificial intelligence capable of optimising the control
+    parameters of a wind farm in response to changing wind conditions and to
+    power demand from the grid.
   supervisors:
-    - Majid Bastankhah (primary)
+    - Stefano Giani (primary)
+    - Majid Bastankhah
 
 # ---------------------------------------------------------------------------
 # TEMPLATE — copy, uncomment, fill in, delete what you don't need.
