@@ -58,6 +58,7 @@ Department of Engineering, Durham University
 
 Department of Engineering, Durham University  
 *Flow control · Aerodynamics · Experimental fluid mechanics*  
+[jordan.p.fuentes-holden@durham.ac.uk](mailto:jordan.p.fuentes-holden@durham.ac.uk)
 
 > **Research project**: I develop a smart wind turbine with trailing-edge flaps that can actively control the airflow around the blades and manipulate its wake to improve efficiency and overall performance.
 
@@ -99,6 +100,7 @@ Department of Engineering, Durham University
 
 Department of Engineering, Durham University  
 *Geophysical fluid dynamics · Applied mathematics*  
+[ernesto.a.chimal-garcia@durham.ac.uk](mailto:ernesto.a.chimal-garcia@durham.ac.uk)
 
 > **Academic supervisors**: Majid Bastankhah (Department of Engineering, Durham University), Hossein Amini Kafiabad (Department of Mathematical Sciences, Durham University)
 
@@ -108,6 +110,7 @@ Department of Engineering, Durham University
 
 Department of Engineering, Durham University  
 *Aerodynamics*  
+[joshua.prowse@durham.ac.uk](mailto:joshua.prowse@durham.ac.uk)
 
 > **Academic supervisors**: Majid Bastankhah (primary)
 
