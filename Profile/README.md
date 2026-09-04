@@ -19,13 +19,13 @@ This GitHub organisation hosts the open-source code, datasets and supplementary 
 | **Floating offshore wind** | How platform motion in six degrees of freedom changes wake behaviour, loads and economics. |
 | **Energy systems, risk & deployment** | Optimal energy and reserve scheduling under wake interactions, and AI-based risk assessment for wind farm projects. |
 
-Models developed by the group are used across academia and industry, and are implemented in tools such as **FLORIS** (NREL) and **PyWake** (DTU).
+Nearly all of this is joint work with colleagues elsewhere. Some of the models we have had a hand in are carried in community tools such as **FLORIS** and **PyWake**, built and maintained by the teams at NREL and DTU.
 
 ---
 
 ## 📘 Publications
 
-> **A note on credit.** Most of our publications are collaborative efforts with other research groups. We greatly enjoy working with and learning from many talented researchers, and full credit goes to all co-authors involved. Please see each publication record for the complete author list and affiliations.
+> **A note on credit.** Almost none of this was done alone. Our work is shared with colleagues at universities, research institutes and companies around the world, and we learn an enormous amount from them. Full credit for each paper belongs to all of its authors — please see each publication record for the complete author list and affiliations.
 
 The table below lists peer-reviewed journal articles by group members relating to wind energy and atmospheric flow. Repositories are linked where code or data is published.
 
