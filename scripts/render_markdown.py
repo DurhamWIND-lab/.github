@@ -91,6 +91,62 @@ def validate(site, people, pubs, projects) -> list[str]:
             if pid not in person_ids:
                 errors.append(f"project {key!r}: unknown person id {pid!r}")
 
+    # An opening disappears from the site by itself once its closing_date has
+    # passed, so that date is load-bearing: written in any other format the
+    # website's date comparison cannot read it, and the post either vanishes
+    # at once or advertises a job nobody can apply for.
+    for i, post in enumerate(site.get("openings") or [], start=1):
+        closing = post.get("closing_date")
+        if closing in (None, ""):
+            continue
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(closing)):
+            title = str(post.get("title", "<untitled>")).strip()[:50]
+            errors.append(
+                f"opening {i} ({title!r}): closing_date {closing!r} is not "
+                'ISO — write it as "YYYY-MM-DD", in quotes'
+            )
+
+    return errors
+
+
+def validate_excluded() -> list[str]:
+    """Check the sweep's exclusion list parses and is shaped as it expects.
+
+    Deliberately separate from validate(): this file feeds
+    scripts/fetch_publications.py rather than anything rendered here, and it
+    is edited by hand more often than the rest, since a person decides what is
+    out of scope.
+    """
+    path = DATA / "publications-excluded.yml"
+    if not path.exists():
+        return []  # absent is fine — the sweep creates it on first use.
+
+    try:
+        entries = yaml.safe_load(path.read_text(encoding="utf-8"))
+    except yaml.YAMLError as exc:
+        # The usual cause is an entry indented under the one above it, which
+        # makes "- year:" a sequence item where a mapping key is expected.
+        # Every entry must start at column 0.
+        return [f"will not parse, so the sweep cannot run: {exc}"]
+
+    if entries is None:
+        return []  # comments only, no entries yet.
+    if not isinstance(entries, list):
+        return [f"should be a list of entries, got {type(entries).__name__}"]
+
+    errors: list[str] = []
+    for i, entry in enumerate(entries, start=1):
+        if not isinstance(entry, dict):
+            errors.append(
+                f"entry {i} is a {type(entry).__name__}, not a mapping — "
+                "check its indentation"
+            )
+            continue
+        # The DOI is the whole point: it is what the sweep matches on to avoid
+        # re-proposing something. An entry without one is silently inert.
+        if not (entry.get("doi") or "").strip():
+            title = str(entry.get("title", "<untitled>"))[:60]
+            errors.append(f"entry {i} ({title!r}) has no doi, so it will be re-proposed")
     return errors
 
 
@@ -259,6 +315,19 @@ def main() -> int:
     people = load("people.yml")
     pubs = load("publications.yml")
     projects = load("projects.yml")
+
+    # publications-excluded.yml is the publication sweep's memory, and the
+    # sweep reads it before it does anything else. Nothing here renders from
+    # it, but it is checked anyway: a hand-edit that breaks its YAML stops the
+    # weekly sweep dead, and because the sweep is the thing that would have
+    # told you about new papers, the site just quietly stops gaining them.
+    # This has already happened once. Fail here, on push, where it is obvious.
+    excluded_errors = validate_excluded()
+    if excluded_errors:
+        print("publications-excluded.yml is not usable:", file=sys.stderr)
+        for err in excluded_errors:
+            print(f"  - {err}", file=sys.stderr)
+        return 1
 
     errors = validate(site, people, pubs, projects)
     if errors:

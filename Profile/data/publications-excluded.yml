@@ -15,7 +15,7 @@
   theme: farm-aero    # guessed — confirm
   # via ORCID: Hossein Amini Kafiabad
 
-  - year: 2021
+- year: 2021
   title: "Inertia-gravity-wave scattering by three-dimensional geostrophic turbulence"
   authors: "Savva, M., Kafiabad, H., & Vanneste, J."
   venue: "Journal of Fluid Mechanics, 916, A6"
@@ -23,7 +23,7 @@
   theme: farm-aero    # guessed — confirm
   # via ORCID: Hossein Amini Kafiabad
 
-  - year: 2019
+- year: 2019
   title: "Diffusion of inertia-gravity waves by geostrophic turbulence"
   authors: "Kafiabad, H. A., Savva, M. A. C., & Vanneste, J."
   venue: "Journal of Fluid Mechanics, 869, R7"
