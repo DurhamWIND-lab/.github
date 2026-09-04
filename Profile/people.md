@@ -18,7 +18,7 @@ Academic staff leading the group's research across engineering and mathematics.
 
 Department of Engineering, Durham University  
 *Wake modelling · Aerodynamics · Experimental fluid mechanics · Atmospheric boundary layer · Turbulence*  
-[majid.bastankhah@durham.ac.uk](mailto:majid.bastankhah@durham.ac.uk) · [Google Scholar](https://scholar.google.com/citations?user=784pzQQAAAAJ&hl=en) · [Durham profile](https://www.durham.ac.uk/staff/majid-bastankhah/) · [LinkedIn](https://www.linkedin.com/in/majid-bastankhah-23058240/)
+[majid.bastankhah@durham.ac.uk](mailto:majid.bastankhah@durham.ac.uk) · [Google Scholar](https://scholar.google.com/citations?user=784pzQQAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-1326-027X) · [Durham profile](https://www.durham.ac.uk/staff/majid-bastankhah/) · [LinkedIn](https://www.linkedin.com/in/majid-bastankhah-23058240/)
 
 > I am a fluid dynamicist with a deep interest in environmental science and sustainable energy, particularly offshore wind. I earned my BSc and MSc in Mechanical Engineering from Sharif University of Technology in Iran, then moved to EPFL in Switzerland for my PhD, joining Durham in 2018. We use theory, simulation and laboratory experiment to understand how wind turbines and wind farms interact with the atmosphere. Colleagues in the wind energy community may know me best for analytical wake models — the Gaussian, or Bastankhah, wake model among them — which are used across academia and industry and are implemented in tools such as FLORIS (NREL) and PyWake (DTU). My main passion is building simple, physically grounded models by simplifying the equations that govern fluid motion: models rooted in fundamental physics but practical enough for the fast-paced world of industry. More recently that work has expanded into data-driven methods that build on physics-based modelling rather than replacing it.
 
@@ -44,7 +44,7 @@ Department of Mathematical Sciences, Durham University
 
 Department of Engineering, Durham University  
 *Machine learning · Risk & resilience · Digital infrastructure · Optimisation & control*  
-[nima.gerami-seresht@durham.ac.uk](mailto:nima.gerami-seresht@durham.ac.uk) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=gNiWjhEAAAAJ) · [Durham profile](https://www.durham.ac.uk/staff/nima-gerami-seresht/) · [LinkedIn](https://www.linkedin.com/in/nima-gerami-seresht/)
+[nima.gerami-seresht@durham.ac.uk](mailto:nima.gerami-seresht@durham.ac.uk) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=gNiWjhEAAAAJ) · [ORCID](https://orcid.org/0000-0003-4408-0332) · [Durham profile](https://www.durham.ac.uk/staff/nima-gerami-seresht/) · [LinkedIn](https://www.linkedin.com/in/nima-gerami-seresht/)
 
 > I work on sustainable and resilient infrastructure, having received my PhD in Construction Engineering and Management from the University of Alberta in 2017. My theoretical research concerns dynamic multi-agent systems, granular computing and building information modelling; my applied work is directed at digital construction, simulating construction processes, and the sustainability and resilience of urban infrastructure. I apply artificial intelligence techniques — fuzzy computation, machine learning and computer vision — to capture human behaviour in the built environment. In wind energy, my research addresses risk identification and assessment for wind farm projects: the deployment and delivery side of getting renewable capacity built.
 

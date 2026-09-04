@@ -1,0 +1,86 @@
+# Sweeps every group member's ORCID for journal articles that are not yet on
+# the site, and opens a pull request with them already formatted.
+#
+# It opens a PR rather than committing to main on purpose. Scope is a judgement
+# call — the page is for wind-energy and atmospheric-flow work, and members
+# publish outside that — so a person confirms the guessed themes and decides
+# what belongs before anything reaches the website.
+#
+# Runs Monday mornings. Use "Run workflow" any time you want to check early,
+# e.g. just after a paper is accepted.
+
+name: Fetch publications from ORCID
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"        # Mondays, 07:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: fetch-publications
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: python -m pip install --quiet pyyaml
+
+      - name: Sweep ORCID for new publications
+        id: sweep
+        run: |
+          set -euo pipefail
+          python scripts/fetch_publications.py --summary-file /tmp/summary.md
+          if git diff --quiet -- Profile/data; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing new." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            cat /tmp/summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Regenerate the org profile markdown
+        if: steps.sweep.outputs.changed == 'true'
+        run: python scripts/render_markdown.py
+
+      - name: Compose the pull request body
+        if: steps.sweep.outputs.changed == 'true'
+        run: |
+          {
+            cat /tmp/summary.md
+            echo
+            echo "---"
+            echo
+            echo "Opened automatically by \`fetch-publications.yml\`. Sources: ORCID"
+            echo "for what each member has published, Crossref for the metadata."
+            echo
+            echo "Merging publishes to the website within ten minutes."
+          } > /tmp/pr-body.md
+
+      - name: Open or update the pull request
+        if: steps.sweep.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/publications
+          # Reuse one branch, so a second sweep updates the open PR instead of
+          # stacking a new one beside it.
+          title: "New publications found on ORCID"
+          body-path: /tmp/pr-body.md
+          commit-message: "Add publications found on ORCID"
+          labels: publications
+          delete-branch: true
+          add-paths: |
+            Profile/data/publications.yml
+            Profile/data/publications-excluded.yml
+            Profile/people.md
+            Profile/README.md
