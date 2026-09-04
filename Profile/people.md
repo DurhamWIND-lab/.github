@@ -6,11 +6,11 @@
 
 # 👥 People
 
-DurhamWIND is an interdisciplinary group at Durham University working on the fluid mechanics of wind energy — from the aerodynamics of a single rotor to the interaction of whole wind farms with the atmospheric boundary layer, and on to the systems that get that energy built and delivered. We bring together expertise in wind-farm aerodynamics, laboratory experiment, geophysical fluid dynamics and applied mathematics, and artificial intelligence.
+DurhamWIND is a multidisciplinary group at Durham University working on the fluid mechanics of wind energy — from the aerodynamics of a single rotor to the interaction of whole wind farms with the atmospheric boundary layer, and on to the systems that get that energy built and delivered. We bring together expertise in wind-farm aerodynamics, laboratory experiment, geophysical fluid dynamics and applied mathematics, and artificial intelligence. Nearly all of this is done jointly with colleagues elsewhere, and we learn a great deal from them.
 
 ## Investigators
 
-Academic staff leading the group's research across engineering and mathematics.
+Academic staff leading the group's research.
 
 ### Majid Bastankhah — Associate Professor
 
