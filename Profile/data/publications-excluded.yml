@@ -1,0 +1,148 @@
+# ---------------------------------------------------------------------------
+# Publications by group members deliberately NOT shown on the website.
+#
+# The sweep in scripts/fetch_publications.py writes here anything it judges out
+# of scope for a wind-energy page. Its purpose is memory: a DOI listed here is
+# never proposed again. Delete an entry and the next sweep will re-propose it.
+#
+# To publish something listed here, move it into publications.yml instead.
+# ---------------------------------------------------------------------------
+
+
+- doi: https://doi.org/10.1103/4d4f-38wx
+  title: "Efficient Lagrangian averaging with exponential filters"
+  year: 2025
+  author: "Hossein Amini Kafiabad"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1061/jitse4.iseng-2658
+  title: "Evaluating the Resilience of Interdependent Infrastructure Systems with a Focus on Community Livability"
+  year: 2025
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1016/j.engappai.2025.111723
+  title: "Fuzzy granular computing for evaluating average uncertainty in machine learning models"
+  year: 2025
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1017/jfm.2025.23
+  title: "Inhomogeneity-induced wavenumber diffusion"
+  year: 2025
+  author: "Hossein Amini Kafiabad"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1017/jfm.2025.42
+  title: "Lagrangian filtering for wave–mean flow decomposition"
+  year: 2025
+  author: "Hossein Amini Kafiabad"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.3390/su162210152
+  title: "Climate Change Mitigation: An Investigation into the Attitudes Within the UK Construction Industry"
+  year: 2024
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1108/ci-12-2022-0333
+  title: "A reinforcing transfer learning approach to predict buildings energy performance"
+  year: 2023
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1017/jfm.2023.228
+  title: "Computing Lagrangian means"
+  year: 2023
+  author: "Hossein Amini Kafiabad"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1016/j.scs.2023.104781
+  title: "Improving occupational safety in office spaces in the post-pandemic era"
+  year: 2023
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1016/j.autcon.2022.104315
+  title: "Enhancing resilience in construction against infectious diseases using stochastic multi-agent approach"
+  year: 2022
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1017/jfm.2022.233
+  title: "Grid-based calculation of the Lagrangian mean"
+  year: 2022
+  author: "Hossein Amini Kafiabad"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1139/cjce-2020-0790
+  title: "Modeling earthmoving operations in real time using hybrid fuzzy simulation"
+  year: 2022
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1017/jfm.2020.1032
+  title: "Wave-averaged balance: a simple example"
+  year: 2021
+  author: "Hossein Amini Kafiabad"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1016/j.asoc.2020.106679
+  title: "A fuzzy clustering algorithm for developing predictive models in construction applications"
+  year: 2020
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1016/j.asoc.2020.106400
+  title: "Neuro-fuzzy system dynamics technique for modeling construction systems"
+  year: 2020
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1016/j.ijar.2019.01.005
+  title: "Computational method for fuzzy arithmetic operations on triangular fuzzy numbers by extension principle"
+  year: 2019
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1108/ijppm-07-2018-0250
+  title: "Factors influencing multifactor productivity of equipment-intensive activities"
+  year: 2019
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1007/s12205-017-1275-5
+  title: "A Multi Criteria Decision Making Model for Prioritizing the Non-Critical Activities in Construction Projects"
+  year: 2018
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1061/(asce)co.1943-7862.0001549
+  title: "Dynamic Modeling of Multifactor Construction Productivity for Equipment-Intensive Activities"
+  year: 2018
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1017/jfm.2018.338
+  title: "Spontaneous imbalance in the non-hydrostatic Boussinesq equations"
+  year: 2018
+  author: "Hossein Amini Kafiabad"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1061/(asce)co.1943-7862.0001195
+  title: "A Fuzzy Discrete Event Simulation Framework for Construction Applications: Improving the Simulation Time Advancement"
+  year: 2016
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1139/cjce-2014-0213
+  title: "Career paths of tradespeople in the construction industry"
+  year: 2015
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
+
+- doi: https://doi.org/10.1016/j.autcon.2015.07.023
+  title: "Queue performance measures in construction simulation models containing subjective uncertainty"
+  year: 2015
+  author: "Nima Gerami-Seresht"
+  reason: no wind or atmospheric-flow keywords
