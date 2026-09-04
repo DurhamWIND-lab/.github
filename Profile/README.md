@@ -14,9 +14,7 @@ This GitHub organisation hosts the open-source code, datasets and supplementary 
 
 | | |
 |---|---|
-| **Wake models & wind-farm flow physics** | Fast, physically grounded analytical models of wake development and wake accumulation across a farm — simple enough for an optimisation loop, faithful enough to be right. |
-| **Atmospheric boundary layer & geophysical fluid dynamics** | Farm-to-farm interaction, blockage, and the large-scale response of the boundary layer, using reduced-order models and the tools of GFD. |
-| **Wind tunnel experiments** | Miniature rotor design, wake structure and flow dynamics, and the scaling questions behind them. |
+| **Wind farm aerodynamics** | How turbines and farms perform and how they interact with the atmosphere: wakes and blockage within a farm and between neighbouring farms, and the two-way coupling with the boundary layer — via reduced-order models, high-fidelity simulation and wind tunnel experiment. |
 | **Wake steering & flow control** | Curled and skewed wakes behind yawed rotors, validation against operational campaigns, and smart rotors with actuated trailing-edge surfaces. |
 | **Floating offshore wind** | How platform motion in six degrees of freedom changes wake behaviour, loads and economics. |
 | **Energy systems, risk & deployment** | Optimal energy and reserve scheduling under wake interactions, and AI-based risk assessment for wind farm projects. |

@@ -12,7 +12,7 @@
   authors: "Cox, M. R., Kafiabad, H. A., & Vanneste, J."
   venue: "Journal of Fluid Mechanics, 958, A21"
   doi: https://doi.org/10.1017/jfm.2023.83
-  theme: abl-gfd    # guessed — confirm
+  theme: farm-aero    # guessed — confirm
   # via ORCID: Hossein Amini Kafiabad
 
   - year: 2021
@@ -20,7 +20,7 @@
   authors: "Savva, M., Kafiabad, H., & Vanneste, J."
   venue: "Journal of Fluid Mechanics, 916, A6"
   doi: https://doi.org/10.1017/jfm.2021.205
-  theme: abl-gfd    # guessed — confirm
+  theme: farm-aero    # guessed — confirm
   # via ORCID: Hossein Amini Kafiabad
 
   - year: 2019
@@ -28,7 +28,7 @@
   authors: "Kafiabad, H. A., Savva, M. A. C., & Vanneste, J."
   venue: "Journal of Fluid Mechanics, 869, R7"
   doi: https://doi.org/10.1017/jfm.2019.300
-  theme: abl-gfd    # guessed — confirm
+  theme: farm-aero    # guessed — confirm
   # via ORCID: Hossein Amini Kafiabad
 
 - doi: https://doi.org/10.1103/4d4f-38wx

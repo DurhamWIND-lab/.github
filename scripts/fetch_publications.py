@@ -69,15 +69,21 @@ RELEVANT = (
 )
 
 # Rough theme guesses, checked in order; first match wins.
+#
+# `farm-aero` is last on purpose. It is the group's broad core theme, so its
+# keywords ("wake", "wind farm", "turbine") match almost everything in scope;
+# putting it above the narrower themes would swallow them. Anything that is
+# not specifically about control, floating platforms or energy systems lands
+# there, which is the right default.
 THEME_HINTS = [
-    ("floating",    ("floating", "semi-submersible", "six degrees", "platform motion")),
-    ("control",     ("yaw", "wake steering", "flow control", "flap", "actuation", "control")),
-    ("experiments", ("wind tunnel", "experimental", "miniature", "porous disc", "piv")),
-    ("systems",     ("scheduling", "risk", "economic", "market", "reserve", "project",
-                     "cost", "layout optimi", "aep", "resilience", "construction")),
-    ("abl-gfd",     ("atmospheric boundary layer", "geostrophic", "stratified",
-                     "inertia-gravity", "lagrangian mean", "wave", "vortex", "ocean")),
-    ("wake-models", ("wake", "actuator disk", "analytical model", "wind farm", "turbine")),
+    ("floating",  ("floating", "semi-submersible", "six degrees", "platform motion")),
+    ("control",   ("yaw", "wake steering", "flow control", "flap", "actuation", "control")),
+    ("systems",   ("scheduling", "risk", "economic", "market", "reserve", "project",
+                   "cost", "layout optimi", "aep", "resilience", "construction")),
+    ("farm-aero", ("wake", "blockage", "actuator disk", "analytical model", "wind farm",
+                   "turbine", "atmospheric boundary layer", "geostrophic", "stratified",
+                   "inertia-gravity", "lagrangian mean", "wind tunnel", "experimental",
+                   "miniature", "porous disc", "piv")),
 ]
 
 
