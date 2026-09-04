@@ -4,7 +4,7 @@
 
 [**Website**](https://durhamwind-lab.github.io) · [**People**](https://github.com/DurhamWIND-lab/.github/blob/main/Profile/people.md) · [**Publications**](https://durhamwind-lab.github.io/publications/)
 
-DurhamWIND is an interdisciplinary group working on the fluid mechanics of wind energy — from the aerodynamics of a single rotor to the interaction of whole wind farms with the atmospheric boundary layer, and on to the systems that get that energy built and delivered. We bring together wind-farm aerodynamics and laboratory experiment, geophysical fluid dynamics and applied mathematics, and artificial intelligence for infrastructure and risk, across the Departments of Engineering and Mathematical Sciences.
+DurhamWIND is a multidisciplinary group at Durham University working on the fluid mechanics of wind energy — from the aerodynamics of a single rotor to the interaction of whole wind farms with the atmospheric boundary layer, and on to the systems that get that energy built and delivered. We bring together wind-farm aerodynamics and laboratory experiment, geophysical fluid dynamics and applied mathematics, and artificial intelligence for infrastructure and risk.
 
 This GitHub organisation hosts the open-source code, datasets and supplementary material behind our publications.
 
@@ -98,7 +98,7 @@ A commit to any of them regenerates this page automatically and updates [the web
 
 ## 🧭 Enquiries
 
-We work across the Departments of Engineering and Mathematical Sciences at Durham University, and we welcome collaboration and enquiries from prospective students and researchers.
+We are a multidisciplinary group at Durham University, and we welcome collaboration and enquiries from prospective students and researchers.
 
 There is no central inbox — write to whichever of us works closest to what interests you. Email addresses are on the [People page](https://github.com/DurhamWIND-lab/.github/blob/main/Profile/people.md).
 
